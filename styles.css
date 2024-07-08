@@ -1,0 +1,34 @@
+/* Estilos básicos para o formulário */
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para os elementos de entrada */
+input[type="number"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+/* Estilos para o botão de submissão */
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para a mensagem de feedback */
+#mensagem {
+    margin-top: 20px;
+    font-size: 16px;
+}
